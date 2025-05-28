@@ -7,7 +7,7 @@ def database_test():
   test_data
   '''
   print (test)
-  input ('Press enter to continue...')
+  input ('Pressione enter para continuar...')
 
 
 
@@ -20,7 +20,7 @@ def database_users():
     
     '''
     print (users)
-    input ('Press enter to continue...')
+    input ('Pressione enter para continuar.')
 
 
 def database_passwords():
@@ -32,7 +32,7 @@ def database_passwords():
     
     '''
     print (passwords)
-    input ('Press enter to continue...')
+    input ('Pressione enter para continuar...')
 
 
 def menu():
@@ -73,7 +73,7 @@ def menu():
     
   else:
     print ('Invalid option')
-    input ('Press enter to continue...')
+    input ('Pressione enter para continuar...')
 
 while True:
   menu()
